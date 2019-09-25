@@ -1,0 +1,77 @@
+	* {
+  		margin: 0;
+  		padding: 0;
+  		-webkit-box-sizing: border-box;
+  		-moz-box-sizing: border-box;
+ 		box-sizing: border-box; }
+
+		body {
+       font-family: "Roboto";
+       background: url(background.png);
+       background-size: cover; }
+
+		.wrap {
+ 		  width: 90%;
+ 		  max-width: 500px;
+ 		  padding: 40px;
+		  margin: auto;
+      border-radius: 15px;
+		  background:rgba(255, 255, 255, 0.86);
+		  box-shadow: 1px 1px 3px grey; }
+
+		.Pendaftaran {
+ 		  width: 100%;
+ 		  color: #f2f2f2;
+ 		  padding: 50px; }
+     	.Pendaftaran .fitur {
+ 		  width: 100%;
+ 	      margin: auto; }
+ 		.Pendaftaran .fitur .input-group {
+    	  position: relative;
+   	      margin-bottom: 32px; }
+        .Pendaftaran .fitur .input-group input[type="text"],
+        .Pendaftaran .fitur .input-group input[type="imel"],
+        .Pendaftaran .fitur .input-group input[type="password"] {
+    	    font-family: "Roboto";
+    	    font-size: 16px;
+    	    color: #303F9F;
+    	    width: 100%;
+    	    outline: none;
+    	    padding: 15px;
+    	    background: none;
+    	    border: none;
+     	    border-bottom: 2px solid #BBDEFB; }
+		.Pendaftaran .fitur .input-group input[type="text"]:focus, 
+		.Pendaftaran .fitur .input-group input[type="text"]:active,
+        .Pendaftaran .fitur .input-group input[type="imel"]:focus,
+        .Pendaftaran .fitur .input-group input[type="imel"]:active,
+        .Pendaftaran .fitur .input-group input[type="password"]:focus,
+        .Pendaftaran .fitur .input-group input[type="password"]:active {
+           outline: none;
+           border-bottom: 2px solid #303F9F; }    
+    .Pendaftaran .fitur input[type="submit"] {
+      background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+      background-size: 400%;
+      top: 50%;
+      bottom: 50%;
+      transform: translate(50%, 0);
+      border-radius: 10px;
+      border: 2px solid #f2f2f200;
+      color: rgb(255, 255, 255);
+      cursor: pointer;
+      display: inline-block;
+      font-family: "Roboto";
+      font-size: 16px;
+      padding: 15px;
+      width: 50%;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+    .Pendaftaran .fitur input[type="submit"]:hover {
+      border-radius: 25px;
+      letter-spacing: 1px;
+      -webkit-box-shadow: 0px 5px 50px -3px rgba(90, 10, 90, 0.9);
+      -moz-box-shadow: 0px 5px 50px -3px rgba(90, 10, 90, 0.9);
+      box-shadow: 0px 5px 50px -3px rgba(90, 10, 90, 0.9);
+      transition: all 0.4s ease 0s;
+    }
